@@ -1,6 +1,8 @@
-theme: hacker
+remote-theme: pages-themes/hacker@v0.2.0
 title: rachelisonline
 author: rachelisonline
 description: rachel, the human, is online
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
